@@ -1,0 +1,80 @@
+.movie_intro {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.intro_image {
+    width: 95%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.movie_content {
+    position: absolute;
+    bottom: 30px;
+    left: 20%;
+    display: flex;
+    gap: 20px;
+}
+.poster_image{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.main_content {
+    width: 500px;
+}
+.movie_title {
+    margin-bottom: 20px;
+}
+.movie_genres {
+    margin-bottom: 10px;
+}
+.genre_name {
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    margin-right: 10px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 15px;
+}
+.vote_box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+p {
+    font-size: 15px;
+    margin: 5px 0;
+}
+.movie-description {
+    font-size: 13px;
+}
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    
+}
+.buttons span {
+    font-weight: 600;
+    font-size: 14px;
+}
+.homepage_link, .imdb_link {
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+    /* border:  1px solid #fff; */
+    border-radius: 20px;
+}
+.homepage_link {
+    margin-right: 20px;
+    background-color: #c9a915 ;
+}
+.imdb_link {
+    background-color: #d20002 ;
+}
