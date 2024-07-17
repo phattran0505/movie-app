@@ -1,6 +1,9 @@
+
 .poster-image {
     /* height: 600px; */
+    width: 100%;
     height: calc(100vh - 64px);
+    object-fit: cover;
 }
 .poster-image img {
     display: block;
@@ -14,7 +17,6 @@
     padding: 5rem;
     bottom: 0px;
     height: 70%;
-    /* width: 50%; */
     display: flex;
     flex-direction: column;
     width: 100%;
